@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    font-size: 62.5%;
+
+}
+
+.main-div {
+    min-height: 100vh;
+    background: rgb(11, 237, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-div {
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.child-div figure img {
+    width: 12rem;
+    height: 10rem;
+    border-radius: 4px;
+}
+
+.child-div figure figcaption {
+    color: #fbfbfb;
+    font-size: 2.9rem;
+    padding-top: 2rem;
+    text-transform: capitalize;
+}
+
+input {
+    /* display: block; */
+    min-width: 40rem;
+    height: 5.4rem;
+    padding: 2rem 1.2rem;
+    font-size: 1.8rem;
+    line-height: 1.42857143;
+    margin-top: 2rem;
+    color: rgb(217, 94, 12);
+    background-color: #fff;
+    background-image: none;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+
+}
+
+.addicon {
+    /* display: flex; */
+    /* justify-self: flex-end; */
+    margin-left: 390px;
+    margin-bottom: 20px;
+}
+
+input {
+    outline: none;
+}
+
+.todo-btn {
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.showItems {
+    margin-top: 3rem;
+
+}
+
+.eachItem {
+    /* background: #fff; */
+    padding: 1.2rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    min-width: 40rem;
+    word-break: break-word;
+    background: rgb(123, 62, 154);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.showItems .eachItem h3 {
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.btn {
+
+    cursor: pointer;
+
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+
+    width: 100%;
 }
